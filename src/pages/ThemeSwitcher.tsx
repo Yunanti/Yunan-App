@@ -37,7 +37,7 @@ const ThemeSwitcher: NextPage = () => {
               className="p-2"
               onClick={() => setTheme('dark')}
             >
-              <MdOutlineDarkMode />
+              <MdOutlineDarkMode/>
             </button>
           )}
         </div>
