@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google'
 import Yunacantek from '@/image/Yunacantek'
-import { SlSocialLinkedin,SlSocialInstagram } from 'react-icons/Sl'
-import { FiGithub } from 'react-icons/Fi'
+import { SlSocialLinkedin,SlSocialInstagram } from 'react-icons/sl'
+import { FiGithub } from 'react-icons/fi'
 
 
 const inter = Inter({ subsets: ['latin'], weight: 'variable'})
