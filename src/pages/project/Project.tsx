@@ -27,7 +27,7 @@ export default function Project() {
                             pengarsipan data karyawan.
                             </p>
                             <div className='pt-2 pb-1 flex flex-row space-x-2'>
-                                <a href="https://github.com/Yunanti/MyAdmin.git" target='_blank' className='font-bold w-3/4 dark:text-gray-300'>{'<'}source code{'/>'}</a>
+                                <a href="https://github.com/Yunanti/MyAdmin.git" target='_blank' className='font-bold w-3/4 dark:text-gray-300 hover:underline'>{'<'}source code{'/>'}</a>
                                 <div className='w-1/4 flex flex-row-reverse space-x-2 content-end'>
                                     <SiPhp/> <SiMicrosoftsqlserver/> <SiBootstrap/> 
                                 </div>
@@ -40,14 +40,16 @@ export default function Project() {
                     <div className='p-1 flex flex-row space-x-5 w-full dark:bg-[#121212] rounded'>
                         <Image src={require('../../image/WaterDect.jpg')} alt='image' width={400} className='rounded'/>
                         <div className='pr-3'>
-                            <h2 className={`${inter.className} pt-3 text-3xl font-black dark:text-gray-200`}>WaterDect</h2>
+                            <a href="https://water-dect-ei3cl6xin-yunanti.vercel.app/about">
+                            <h2 className={`${inter.className} pt-3 text-3xl font-black dark:text-gray-200 hover:underline`}>WaterDect</h2>
+                            </a>
                             <h4 className='dark:text-gray-300 font-bold'>Capstone Project Generasi GIGIH 2.0</h4>
                             <p className='dark:text-gray-400 text-sm'>Dibuat pada bulan Juni 2022</p>
                             <p className='dark:text-gray-300'>Sebuah website informasi bencana alam kekeringan yang terjadi di Indonesia. Dilengkapi dengan fitur galeri yaitu kumpulan potret kekeringan pada provinsi tertentu sesuai dengan permintaan user untuk
                                 melihat daerah mana.
                             </p>
                             <div className='pt-2 pb-1 flex flex-row space-x-2'>
-                                <a href="https://github.com/Yunanti/WaterDect-App.git" target='_blank' className='font-bold w-3/4 dark:text-gray-300'>{'<'}source code{'/>'}</a>
+                                <a href="https://github.com/Yunanti/WaterDect-App.git" target='_blank' className='font-bold w-3/4 dark:text-gray-300 hover:underline'>{'<'}source code{'/>'}</a>
                                 <div className='w-1/4 flex flex-row space-x-2 content-end'>
                                     <SiReact/> <SiJavascript/> <SiTypescript/> <SiRedux/> <DiNodejs/>
                                 </div>
