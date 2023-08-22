@@ -4,7 +4,7 @@ import { SiReact, SiJavascript, SiTypescript, SiRedux, SiPhp, SiMicrosoftsqlserv
 import { DiNodejs, DiJava } from 'react-icons/di'
 import Link from 'next/link'
 import Image from 'next/image'
-// import Navbar from '@/components/Navbar'
+
 
 const inter = Inter({ subsets: ['latin'], weight: 'variable'})
 
@@ -40,7 +40,7 @@ export default function Project() {
                     <div className='p-1 flex flex-row space-x-5 w-full dark:bg-[#121212] rounded'>
                         <Image src={require('../../image/WaterDect.jpg')} alt='image' width={400} className='rounded'/>
                         <div className='pr-3'>
-                            <a href="https://water-dect-ei3cl6xin-yunanti.vercel.app/about">
+                            <a href="https://water-dect-ei3cl6xin-yunanti.vercel.app/about" target='_blank'>
                             <h2 className={`${inter.className} pt-3 text-3xl font-black dark:text-gray-200 hover:underline`}>WaterDect</h2>
                             </a>
                             <h4 className='dark:text-gray-300 font-bold'>Capstone Project Generasi GIGIH 2.0</h4>
