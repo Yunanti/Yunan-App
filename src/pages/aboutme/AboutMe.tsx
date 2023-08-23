@@ -13,9 +13,9 @@ export default function AboutMe() {
             <div className='grid place-content-center'>
                 <Yunacantek/>
             </div>
-            <div className='mx-44 py-5 text-justify'>
+            <div className='mx-10 md:mx-44 py-0 md:py-5 text-justify'>
                 <h1 className={`${inter.className} text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500`}>Tentang saya</h1>
-                <div className='py-5'>
+                <div className='pt-1 pb-5 md:py-5'>
                 <p>Saya Yunanti Moga Hasanah, lahir di Kabupaten Jember pada tanggal 29 Maret 2001. Saya tumbuh di kota kecil yang berada di Jawa Timur yaitu Kota Probolinggo hingga lulus SMA. Setelah lulus, saya 
                     berkuliah di salah satu kampus ternama di Kota Surabaya. Saat ini saya seorang fresh graduate dari jurusan Matematika Institut Teknologi Sepuluh Nopember (ITS). Saya memiliki minat tinggi pada bidang ilmu komputer khususnya Web Developer. 
                     Selama berkuliah di ITS, saya aktif dalam bidang akademik maupun non-akademik. Pada bidang akademik, saya telah mengerjakan beberapa project untuk memenuhi tugas maupun untuk menambah pengalaman, mengikuti studi independen Kampus Merdeka di 
@@ -36,15 +36,15 @@ export default function AboutMe() {
                 </div>
             </div>
 
-            <div className='mx-44  py-5 text-justify'>
+            <div className='mx-10 md:mx-44 py-0 md:py-5 text-justify'>
                 <h1 className={`${inter.className} text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-yellow-500 to-purple-500`}>Pengalaman</h1>
-                <div className='py-5'>
-                    <div className='flex flex-row space-x-20 w-full'>
-                        <div className='w-5/6'>
+                <div className='pt-1 pb-5 md:py-5'>
+                    <div className='flex flex-col md:flex-row md:space-x-20 w-full'>
+                        <div className='md:w-5/6'>
                             <h2 className={`${inter.className} text-xl font-black`}>Object-Oriented Programming Laboratory Assistant</h2>
                             <h4 className='font-bold'>Matematika ITS</h4>
                         </div>
-                        <div className='text-right w-1/6'>
+                        <div className='md:text-right md:w-1/6'>
                             <h4>Surabaya, Jawa Timur</h4>
                             <h4>Oktober-Desember 2022</h4>
                         </div>
@@ -61,12 +61,12 @@ export default function AboutMe() {
                         </ul>
                     </div>
 
-                    <div className='pb-5 flex flex-row space-x-20 w-full mt-5'>
-                        <div className='w-5/6'>
+                    <div className='pb-1 md:pb-5 flex flex-col md:flex-row md:space-x-20 w-full mt-5'>
+                        <div className='md:w-5/6'>
                             <h2 className={`${inter.className} text-xl font-black`}>Funding Officer - Intership</h2>
                             <h4 className='font-bold'>PT Bank Rakyat Indonesia</h4>
                         </div>
-                        <div className='text-right w-1/6'>
+                        <div className='md:text-right md:w-1/6'>
                             <h4>Jember, Jawa Timur</h4>
                             <h4>Juli-Agustus 2022</h4>
                         </div>
@@ -81,12 +81,12 @@ export default function AboutMe() {
                         </ul>
                     </div>
 
-                    <div className='pb-5 flex flex-row space-x-20 w-full mt-5'>
-                        <div className='w-5/6'>
-                            <h2 className={`${inter.className} text-xl font-black`}>Front-End Developer - Apprenticeship</h2>
+                    <div className='pb-1 md:pb-5 flex flex-col md:flex-row md:space-x-20 w-full mt-5'>
+                        <div className='md:w-5/6'>
+                            <h2 className={`${inter.className} text-left text-xl font-black`}>Front-End Developer - Apprenticeship</h2>
                             <h4 className='font-bold'>Generasi GIGIH 2.0 by YABB & GoTo</h4>
                         </div>
-                        <div className='text-right w-1/6'>
+                        <div className='md:text-right md:w-1/6'>
                             <h4>Surabaya, Jawa Timur</h4>
                             <h4>Februari-Juli 2022</h4>
                         </div>
@@ -106,10 +106,10 @@ export default function AboutMe() {
                 </div>
             </div>
 
-            <div className='mx-44 pt-4 pb-5 text-justify'>
-                <h1 className={`${inter.className} pb-4 text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-purple-500 to-pink-500`}>Hubungi saya</h1>
+            <div className='mx-10 md:mx-44 py-0 md:pt-4 md:pb-5 text-justify'>
+                <h1 className={`${inter.className} pb:1 md:pb-4 text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-purple-500 to-pink-500`}>Hubungi saya</h1>
                 <p>Saya selalu bersemangat untuk terhubung dengan semua orang, jadi jangan ragu untuk menghubungi saya dengan mengikuti media sosial saya di bawah ini:</p>
-                <div className='flex flex-row space-x-20 w-full'>
+                <div className='flex flex-row space-x-10 md:space-x-20 w-full'>
                     <ul className='list-outside list-disc ml-6'>
                         <li>Email </li>
                         <li>Linkedin </li>
