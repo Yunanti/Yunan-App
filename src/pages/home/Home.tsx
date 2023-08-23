@@ -17,7 +17,7 @@ export default function Home() {
                     <a href="https://github.com/Yunanti" className='text-2xl'><FiGithub className='mt-7'/></a>
                 </div>
                 <div className='mx-10 md:mx-0 lg:w-1/2'>
-                    <h1 className={`${inter.className} text-2xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500`}>Yunanti Moga Hasanah, S.Mat.</h1>
+                    <h1 className={`${inter.className} text-[21px] md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500`}>Yunanti Moga Hasanah, S.Mat.</h1>
                     <h2 className={`${inter.className} py-2 font-bold dark:text-gray-300`}>Front-end Developer</h2>
                     <p className='dark:text-gray-400 text-justify'>Seorang fresh graduate dari jurusan matematika ITS yang memiliki minat besar pada ilmu komputer, khususnya di bidang pengembangan web. Berhasil lulus mata kuliah ilmu komputer dasar dengan nilai rata-rata 3,6. Selama berkuliah aktif dalam perlombaan, organisasi, dan pengabdian masyarakat. Serta memiliki keterampilan komunikasi dan jaringan yang baik dalam organisasi formal maupun informal.</p>
                     <div>

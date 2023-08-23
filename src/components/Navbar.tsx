@@ -56,8 +56,8 @@ export default function Navbar() {
             </div>
             <ThemeSwitcher/>
         </div> */}
-      <div className="layarNavbar fixed md:h-auto md:flex md:flex-row md:space-x-5 w-full md:pl-40 md:pr-28 ml-6 backdrop-blur-md md:backdrop-blur-sm bg-white/30 dark:bg-[#121212]/30">
-        <div className="flex flex-row md:w-7/12">
+      <div className="layarNavbar fixed md:h-auto md:flex md:flex-row md:space-x-5 w-full md:pl-40 md:pr-28 md:ml-6 backdrop-blur-md md:backdrop-blur-sm bg-white/30 dark:bg-[#121212]/30">
+        <div className="flex flex-row ml-6 md:ml-0 md:w-7/12">
           {currentTheme === 'dark' ? (
             <div className="w-3/4 md:w-full mt-2">
               <Image
@@ -75,12 +75,12 @@ export default function Navbar() {
               />
             </div>
           )}
-          <button onClick={handleMenu} className="inline m-6 md:hidden">
+          <button onClick={handleMenu} className="inline ml-10 my-6 md:hidden">
             {click === 'false' ? <SlMenu /> : <IoMdClose />}
           </button>
         </div>
         <ul
-          className={`${inter.className} flex-col hidden md:flex  md:flex-row md:pt-6 md:pl-14 md:space-x-5 text-sm text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500`}
+          className={`${inter.className} flex-col hidden text-base md:text-sm md:flex md:flex-row md:pt-6 md:pl-14 md:space-x-5 text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500`}
         >
           <li className="my-3 md:my-0">
             <Link

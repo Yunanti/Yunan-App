@@ -54,16 +54,16 @@ export default function DevCard(){
     return(
         <>
             {DevList.map((item, index) => (
-                <div className='w-full p-px m-2 bg-gradient-to-r from-yellow-500/70 via-pink-500/70 to-purple-500/70 rounded' key={index} >
-                    <div className='p-1 flex flex-row space-x-5 w-full dark:bg-[#121212] rounded'>
+                <div className='w-full p-px mt-2 mb-4 md:m-2 bg-gradient-to-r from-yellow-500/70 via-pink-500/70 to-purple-500/70 rounded' key={index} >
+                    <div className='p-1 flex flex-col md:flex-row md:space-x-5 w-full dark:bg-[#121212] rounded'>
                         {item.image}
-                        <div className='pr-3'>
+                        <div className='md:pr-3'>
                             <a href={item.visit} target='_blank'>
-                                <h2 className={`${inter.className} pt-3 text-3xl font-black dark:text-gray-200 hover:underline`}>{item.title}</h2>
+                                <h2 className={`${inter.className} pt-2 md:pt-3 text-[23px] md:text-3xl font-black dark:text-gray-200 hover:underline`}>{item.title}</h2>
                             </a>
                             <h4 className='dark:text-gray-300 font-bold'>{item.subtitle}</h4>
                             <p className='dark:text-gray-400 text-sm'>{item.created}</p>
-                            <p className='dark:text-gray-300'>{item.keterangan}</p>
+                            <p className='dark:text-gray-300 text-justify'>{item.keterangan}</p>
                             <div className='pt-2 pb-1 flex flex-row space-x-2'>
                                 <a href={item.code} target='_blank' className='font-bold w-3/4 dark:text-gray-300 hover:underline'>{'<'}source code{'/>'}</a>
                                 <div className='w-1/4 flex flex-row-reverse space-x-2 content-end'>
