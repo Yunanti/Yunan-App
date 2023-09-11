@@ -39,7 +39,12 @@ export default function Home() {
                       </ul>
                       </div>
                     </div>
-                    <button className='rounded-full px-8 pb-2 pt-1 mt-5 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500'>Hubungi saya</button>
+                    <button 
+                      className='rounded-full px-8 pb-2 pt-1 mt-5 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500' 
+                      onClick={() => (window.location.href = 'mailto:yunantimh@gmail.com')}
+                    >
+                      Hubungi saya
+                    </button>
                 </div>
                 <div>
                     <Yunacantek/>

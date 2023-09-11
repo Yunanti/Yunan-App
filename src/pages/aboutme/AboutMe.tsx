@@ -117,7 +117,7 @@ export default function AboutMe() {
                         <li>Instagram</li>
                     </ul>
                     <ul className='list-outside'>
-                        <li>yunantimogah@gmail.com</li>
+                        <li>yunantimh@gmail.com</li>
                         <li><a href="https://www.linkedin.com/in/yunantimh/">linkedin.com/in/yunantimh/</a></li>
                         <li><a href="https://github.com/Yunanti">github.com/Yunanti</a></li>
                         <li>yunantimh_</li>
